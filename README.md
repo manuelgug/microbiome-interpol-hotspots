@@ -17,7 +17,7 @@ This pipeline demonstrates advanced spatial microbiome analytics using real data
 - **Spatial interpolation** using Inverse Distance Weighting (IDW)
 - **Hotspot detection** with Getis-Ord Gi* statistics
 - **Community composition analysis** comparing hotspots vs coldspots
-- **Professional cartographic visualization** with ocean masking
+- **Cartographic visualization**
 - **Statistical validation** using non-parametric tests
 
 ## 📋 Table of Contents
@@ -122,10 +122,10 @@ The analysis generates several key outputs:
 - Apply Inverse Distance Weighting interpolation
 - Generate continuous spatial predictions
 - Create professional cartographic visualizations
+  
 ![interpolation](imgs/nitrogen_fixation_interpolation.png)
 
 ### 4. Hotspot Analysis (Getis-Ord Gi*)
-- Calculate local spatial autocorrelation statistics
 - Identify significant hotspots and coldspots
 - Assess spatial clustering patterns
 
@@ -133,6 +133,7 @@ The analysis generates several key outputs:
 - Compare taxonomic composition between hotspots/coldspots
 - Identify top genera associated with each group
 - Generate comparative visualizations
+  
 ![interpolation](imgs/hotspot_coldspot_composition.png)
 
 ### 6. Diversity Analysis
