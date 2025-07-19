@@ -263,7 +263,7 @@ p_final <- ggplot() +
 
 print(p_final)
 ggsave("nitrogen_fixation_interpolation.png", p_final, 
-       width = 12, height = 8, dpi = 300)
+       width = 12, height = 8, dpi = 300, bg = "white")
 ```
 
 ---
@@ -347,7 +347,7 @@ p_hotspots <- ggplot() +
 
 print(p_hotspots)
 ggsave("nitrogen_fixation_hotspots.png", p_hotspots, 
-       width = 12, height = 8, dpi = 300)
+       width = 12, height = 8, dpi = 300, bg = "white")
 ```
 
 ---
@@ -491,7 +491,7 @@ cat("Coldspot analysis completed:", length(coldspot_samples), "samples\n")
 combined_composition <- p_hotspot + p_coldspot
 print(combined_composition)
 ggsave("hotspot_coldspot_composition.png", combined_composition, 
-       width = 16, height = 8, dpi = 300)
+       width = 16, height = 8, dpi = 300, bg = "white")
 ```
 
 ---
@@ -558,7 +558,7 @@ p_diversity <- ggplot(shannon_df, aes(x = Hotspot, y = Shannon, fill = Hotspot))
 
 print(p_diversity)
 ggsave("shannon_diversity_comparison.png", p_diversity, 
-       width = 8, height = 6, dpi = 300)
+       width = 8, height = 6, dpi = 300, bg = "white")
 ```
 
 ---
@@ -591,7 +591,7 @@ p_nmds <- plot_ordination(ps_rel, ord_nmds, color = "Hotspot_Status") +
 
 print(p_nmds)
 ggsave("nmds_ordination.png", p_nmds, 
-       width = 10, height = 6, dpi = 300)
+       width = 10, height = 6, dpi = 300, bg = "white")
 ```
 
 ---
