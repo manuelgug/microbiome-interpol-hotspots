@@ -141,6 +141,10 @@ The analysis generates several key outputs:
 - Perform statistical comparisons
 - Create ordination plots (NMDS)
 
+![boxplots](imgs/shannon_diversity_comparison.png)
+
+![nmds](imgs/nmds_ordination.png)
+
 ## 🔬 Methodology
 
 ### Spatial Interpolation
