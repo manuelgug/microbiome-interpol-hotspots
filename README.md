@@ -28,7 +28,6 @@ This pipeline demonstrates advanced spatial microbiome analytics using real data
 - [Workflow Overview](#workflow-overview)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Technical Notes](#technical-notes)
 - [License](#license)
 
 ## 🚀 Installation
@@ -174,14 +173,6 @@ gi_star <- localG(values, lw)
 - **Wilcoxon rank-sum test** for diversity comparisons
 - **Significance threshold**: p < 0.05
 - **Multiple comparison correction** if appropriate
-
-## ⚙️ Technical Notes
-
-### Spatial Parameters
-- **IDW Power**: 2
-- **Spatial Weights**: k=4 nearest neighbors
-- **Grid Resolution**: 0.5 degrees
-- **Significance Level**: p < 0.05
 
 ## 🏷️ Keywords
 
